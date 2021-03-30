@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Article</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<header>
+
+    <div class="topnav">
+        <ul>
+            <li><a class="ASAC" href="#home">ASAC</a></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+
+        </ul>
+
+    </div>
+</header>
+
+<body>
+    <main>
+        <form action="" class="myArticle">
+            <label for="articleAutho">Article author:</label><br>
+            <input type="text" id="fname" name="fname" value=""><br>
+            <label for="articleTitle"> Article Title:</label><br>
+            <input type="text" id="lname" name="lname" value=""><br><br>
+            <label for="subject">Subject:</label>
+            <select id="subject" name="subject" form="carform">
+                <option value="Coding">Coding</option>
+                <option value="3Dprinting">3D printing</option>
+                <option value="cyberSecurity">Cyber security</option>
+                <option value="AI">AI</option>
+            </select><br><br>
+
+
+            <textarea name="content" style="width:20px; height:60px;">
+        </textarea><br><br>
+            <label for="date">date:</label>
+            <input type="date" id="date" name="date"><br><br>
+
+            <input type="submit" value="Submit">
+        </form>
+    </main>
+    <script src="./js/app.js"></script>
+</body>
+<footer></footer>
+
+</html>
